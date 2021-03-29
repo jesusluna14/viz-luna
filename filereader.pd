@@ -1,0 +1,17 @@
+#N canvas 346 143 926 626 12;
+#X obj 259 208 readsf~ 2;
+#X obj 271 265 *~;
+#X obj 324 273 *~;
+#X obj 286 312 dac~;
+#X floatatom 384 228 5 0 0 0 - - -;
+#X obj 292 173 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 270 146 open Paulo.wav;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 1;
+#X connect 4 0 1 1;
+#X connect 4 0 2 1;
+#X connect 5 0 0 0;
+#X connect 6 0 0 0;
