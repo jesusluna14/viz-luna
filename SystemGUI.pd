@@ -1,4 +1,4 @@
-#N canvas 836 11 1741 1540 12;
+#N canvas 1087 80 1584 1418 12;
 #X declare -lib Gem;
 #X obj 13 12 declare -lib Gem;
 #X obj 31 57 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
@@ -24,12 +24,12 @@
 #X obj 360 533 trigger f f;
 #X obj 454 567 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 369 647 osc~ 150;
-#X obj 369 706 *~;
-#X obj 369 748 *~ 0.1;
-#X obj 369 796 dac~;
-#X msg 439 621 \$1 100;
-#X obj 439 663 line~;
+#X obj 540 612 osc~ 150;
+#X obj 540 671 *~;
+#X obj 540 713 *~ 0.1;
+#X obj 540 761 dac~;
+#X msg 610 586 \$1 100;
+#X obj 610 628 line~;
 #X obj 394 603 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 360 569 select 1;
@@ -356,7 +356,7 @@
 #X connect 24 0 25 1;
 #X connect 26 0 27 0;
 #X connect 27 0 23 1;
-#X connect 28 0 26 0;
+#X connect 28 0 22 0;
 #X connect 29 0 28 0;
 #X connect 30 0 31 0;
 #X connect 31 0 43 0;
